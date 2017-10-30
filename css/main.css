@@ -244,7 +244,7 @@ input{
 .send {
     display: inline-block;
     float: left;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
     border-style: none;
     background-color: #18bc9c;
@@ -255,6 +255,12 @@ input{
     margin-left: 313px;
     margin-top: 25px;
     margin-bottom: 180px;
+    text-decoration: none;
+}
+
+.send:hover {
+    background-color: #289980;
+    color: #fff; 
 }
 
 .footer {
